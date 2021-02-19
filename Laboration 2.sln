@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab2", "Lab2\Lab2.csproj", "{95AD624D-7C14-4255-BBC7-E2B98CFB52DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometricLab", "GeometricLab\GeometricLab.csproj", "{2E738CF6-AB95-4006-AAC7-8AD0E4165CE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95AD624D-7C14-4255-BBC7-E2B98CFB52DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95AD624D-7C14-4255-BBC7-E2B98CFB52DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95AD624D-7C14-4255-BBC7-E2B98CFB52DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95AD624D-7C14-4255-BBC7-E2B98CFB52DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E738CF6-AB95-4006-AAC7-8AD0E4165CE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E738CF6-AB95-4006-AAC7-8AD0E4165CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E738CF6-AB95-4006-AAC7-8AD0E4165CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E738CF6-AB95-4006-AAC7-8AD0E4165CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB2243B6-C9BE-4C00-88AA-5B36E76A8DEE}
+	EndGlobalSection
+EndGlobal
