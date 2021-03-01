@@ -21,7 +21,12 @@ namespace Lab_2
         public Triangle()
         {
         }
-
+        /// <summary>
+        /// Constructor that takes three Vector2(x,y) that forms a Triangle 
+        /// </summary>
+        /// <param name="p0">This is point A</param>
+        /// <param name="p1">This is point B</param>
+        /// <param name="p2">This is point C</param>
         public Triangle(Vector2 p0, Vector2 p1, Vector2 p2)
         {
             point1 = new Vector2(p0.X, p0.Y);
@@ -37,15 +42,27 @@ namespace Lab_2
             area = (float)(area * 0.25);
 
         }
-        /*
-         *    
-         */
-
+       
+        /// <summary>
+        /// Will calculate the circumference of the triangle and return it as float
+        /// </summary>
         public override float Circumference => (pointAToB + pointAToC + pointBToC);
 
+        /// <summary>
+        /// Will return the center of the triangle as a Vector3(x,y,z)
+        /// and set the x,y to their current value and set z to zero.
+        /// </summary>
         public override Vector3 Center => new Vector3 (center.X,center.Y,0.0f);
 
+        /// <summary>
+        /// Will return the triangles area
+        /// </summary>
         public override float Area => area;
+        
+        /// <summary>
+        /// Will convert all the information into a text
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             Console.WriteLine("Triangle @({0}, {1}): p1({2}, {3}), p2({4}, {5}), p3({6}, {7})",
@@ -53,6 +70,9 @@ namespace Lab_2
             
             return "";
         }
+        /// <summary>
+        /// Will calculate all the points from A->B etc.
+        /// </summary>
         private void CalcTriangle()
         {
 

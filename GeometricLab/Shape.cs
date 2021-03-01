@@ -5,11 +5,10 @@ namespace Lab_2
 {
     public abstract class Shape
     {
-
         public static Shape[] GenerateShape()
         {
             Shape[] _shape = new Shape[20];
-
+            
             Random rand = new Random();
             for (int i = 0; i < _shape.Length; i++)
             {
@@ -52,6 +51,7 @@ namespace Lab_2
              }
             return _shape;
         }
+        
         public static Shape[] GenerateShape(Vector3 midPosition)
         {
             Shape[] _shape = new Shape[20];
@@ -59,7 +59,7 @@ namespace Lab_2
             {
                 Random rand = new Random();
                 int almostValue = rand.Next(0, 7);
-                switch (i)
+                switch (almostValue)
                 {
 
                     case 0:
